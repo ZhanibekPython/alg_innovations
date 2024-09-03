@@ -1,0 +1,5 @@
+2024-09-03 01:20:20,587 : root : INFO : [+] Starting the data transfer to OpenSearch
+2024-09-03 01:20:20,958 : root : INFO : Returning serialized data
+2024-09-03 01:20:20,992 : opensearch : INFO : POST https://localhost:9200/python_index/_doc [status:201 request:0.033s]
+2024-09-03 01:20:20,992 : send_to_opensearch : INFO : [+] The response from OpenSearch-server: {'_index': 'python_index', '_id': 'onNltJEBCF9WVsquQ2Bj', '_version': 1, 'result': 'created', '_shards': {'total': 2, 'successful': 1, 'failed': 0}, '_seq_no': 2, '_primary_term': 1}
+2024-09-03 01:20:20,992 : root : INFO : [+] Transfer data to OpenSearch completed
