@@ -1,0 +1,6 @@
+2024-09-03 11:44:14,153 : __main__ : INFO : [+] Starting the data transfer to OpenSearch
+2024-09-03 11:44:14,864 : httpx : INFO : HTTP Request: GET https://localhost:9200/fluent-bit/_search?pretty&q=*:* "HTTP/1.1 200 OK"
+2024-09-03 11:44:14,865 : __main__ : INFO : Returning serialized data
+2024-09-03 11:44:14,871 : httpx : INFO : HTTP Request: POST https://localhost:9200/python_index/_doc/ "HTTP/1.1 400 Bad Request"
+2024-09-03 11:44:14,872 : async_send_to_opensearch : INFO : [+] The response from OpenSearch-server: {"error":{"root_cause":[{"type":"mapper_parsing_exception","reason":"failed to parse"}],"type":"mapper_parsing_exception","reason":"failed to parse","caused_by":{"type":"not_x_content_exception","reason":"Compressor detection can only be called on some xcontent bytes or compressed xcontent bytes"}},"status":400}
+2024-09-03 11:44:14,872 : __main__ : INFO : [+] Transfer data to OpenSearch completed
